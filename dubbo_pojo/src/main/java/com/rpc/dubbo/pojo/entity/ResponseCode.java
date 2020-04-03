@@ -1,4 +1,4 @@
-package com.rpc.dubbo.entity;
+package com.rpc.dubbo.pojo.entity;
 
 public enum ResponseCode {
     SUCCESS(200,"Success"),

@@ -12,7 +12,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
       http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
     <!--  配置扫描swagger的配置-->
-    <context:component-scan base-package="com.rpc.dubbo.config"></context:component-scan>
+    <context:component-scan base-package="com.rpc.dubbo"></context:component-scan>
     <mvc:annotation-driven>
         <mvc:message-converters register-defaults="true">
             <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
